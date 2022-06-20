@@ -1,0 +1,705 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.banner{
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  position:unset;
+}
+
+.slider{
+  width: 100%;
+  height: 100vh;
+}
+
+#slideimg{
+  width:100%;
+  height: 100vh;
+}
+
+.overlay{
+  width:100%;
+  height: 100vh;
+  background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+  position:absolute;
+  top: 0;
+}
+
+.navbar{
+  display: flex;
+  margin: 20px auto;
+  text-align:center; 
+
+}
+
+.content{
+ width:100%; 
+ text-align: center;
+  color:#F1C40F;
+  cursor: pointer; 
+padding-top:100px;
+}
+
+.content h6{
+  font-size: 50px;
+   font-family: "sofia", sans-serif;
+}
+
+
+.nav{
+   position: fixed;
+   left: 0;
+   width: 100%;
+   background-color:black;
+   color: white;
+   text-align: center;
+   top: 0;
+}
+
+.nav  ul li {
+  list-style: none;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family:cursive;
+  color:white;
+  float: left;
+  font-size: 20px;
+  padding: 5px;
+  cursor: pointer;
+  padding-right:70px;
+}
+
+.nav  ul li a{
+  color:white;
+  list-style: none;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.nav  ul li a:hover{
+  font-size: 20px;
+  transition:0.5s;
+   color:#F4D03F;
+  border: 1px solid blue;
+  padding: 5px;
+}
+
+.goal h1{
+   color:white;
+   text-align: center;
+   padding-top:10px;
+   font-size: 25px;
+   font-weight: 0;
+}
+
+.goal h1:hover{
+  color: yellow;
+}
+
+.find{
+  color:white;
+  padding-top: 20px;
+  text-align: center;
+  font-size: 18px;
+}
+
+.find:hover{
+  cursor: pointer;
+  color: yellow;
+}
+
+footer{
+  color: white;
+  display: flex;
+  float: left;
+  padding-right: 200px;
+padding-top: 100px;
+text-align: center;
+width:100%;
+height:100%;
+}
+
+.call{
+  float: right;
+  width:50%;
+}
+
+.call p{
+   text-decoration: none;
+  text-transform: unset;
+  list-style: none;
+  font-size: 25px;
+  padding-bottom: 10px;
+  color:lightyellow;
+
+}
+
+.call p:hover{
+  cursor:pointer;
+  color: yellow;
+}
+
+
+.call ul li{
+  text-decoration: none;
+  text-transform: unset;
+  list-style: none;
+  display: inline-block;
+}
+
+.call ul li i{
+  padding: 5px;
+  font-size: 25px;
+  padding-top: 10px;
+}
+
+.call ul li i:hover{
+  color:orange;
+  transition: 0.10s;
+}
+
+.gold{
+  width:50%;
+  float:left;
+}
+
+.gold{
+
+}
+
+#child{
+   background:#F5B041;
+  /*color:#F9E79F;*/
+  color: white;
+ box-shadow: 0 0 10px #F5B041,  0 0 40px #F5B041,  0 0 80px #F5B041;
+}
+a{
+  position: relative;
+  display: inline-block;
+  padding: 8px;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 0.10px;
+  font-size: 22px;
+  overflow: hidden;
+  transition: 0,2s;
+}
+
+a:hover{
+  color: ;
+ /* background:#F5B041;
+  box-shadow: 0 0 10px #F5B041,  0 0 40px #F5B041,  0 0 80px #F5B041;*/
+  transition-delay: 1s;
+}
+
+a span
+{
+  position:absolute;
+  display: block;
+}
+
+a span:nth-child(1)
+{
+  top: 0;
+  left: -100%;
+  width:100%;
+  height: 2px;
+  background: linear-gradient(90deg,transparent,#2196f3);
+}
+
+a:hover span:nth-child(1)
+{
+  left: 100%;
+  transition: 1s;
+}
+
+
+a span:nth-child(3)
+{
+  bottom: 0;
+  right: -100%;
+  width:100%;
+  height: 2px;
+  background: linear-gradient(270deg,transparent,#2196f3);
+}
+
+a:hover span:nth-child(3)
+{
+  right: 100%;
+  transition: 1s;
+  transition-delay: 0.5s;
+}
+
+a span:nth-child(2)
+{
+  top: -100%;
+  right: 0;
+  width:2px;
+  height: 100%;
+  background: linear-gradient(180deg,transparent,#2196f3);
+}
+
+a:hover span:nth-child(2)
+{
+  top: 100%;
+  transition: 1s;
+  transition-delay: 0.25s;
+}
+
+a span:nth-child(4)
+{
+  bottom: -100%;
+  left: 0;
+  width:2px;
+  height: 100%;
+  background: linear-gradient(360deg,transparent,#2196f3);
+}
+
+a:hover span:nth-child(4)
+{
+  bottom: 100%;
+  transition: 1s;
+  transition-delay: 0.45s;
+}
+
+
+section{
+  width:100%;
+  position:all;
+}
+
+#Home{
+
+}
+
+#GAMES{
+  background:#2C3E50;
+  width:100%;
+  height: 500%;
+}
+
+
+.team {
+  list-style:decimal-leading-zero;
+  padding-top: 100px;
+}
+
+.team ul li{
+  list-style: none;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 40px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.name  p{
+  text-align: center;
+  text-decoration: blink;
+  color: white;
+  cursor: pointer;
+  border:1px solid gray;
+  border-radius: 15px;
+    letter-spacing: 0.5px
+}
+
+.team img {
+  cursor: pointer;
+}
+
+.team img:hover{
+  width:110px;
+}
+
+.team-1{
+  list-style:decimal-leading-zero;
+  padding: 10px;
+  }
+
+  .team-1 ul li{
+    list-style: none;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 40px;
+  display: inline-block;
+  cursor: pointer;
+  }
+
+  .name-1 p{
+    text-align: center;
+  text-decoration: blink;
+  color: white;
+  cursor: pointer;
+  border:1px solid gray;
+  border-radius: 15px;
+    letter-spacing: 0.5px
+  }
+
+  .team-1 img {
+  cursor: pointer;
+  text-align: center;
+}
+
+.team-1 img:hover{
+  width:110px;
+}
+
+.team-2{
+  list-style:decimal-leading-zero;
+  padding: 10px;
+  }
+
+  .team-2 ul li{
+    list-style: none;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 40px;
+  display: inline-block;
+  cursor: pointer;
+  }
+
+  .name-2 p{
+    text-align: center;
+  text-decoration: blink;
+  color: white;
+  cursor: pointer;
+  border:1px solid gray;
+  border-radius: 15px;
+  letter-spacing: 0.5px
+  }
+
+  .team-2 img {
+  cursor: pointer;
+  text-align: center;
+}
+
+.team-2 img:hover{
+  width:110px;
+}
+
+.team-3{
+  list-style:decimal-leading-zero;
+  padding: 10px;
+  }
+
+  .team-3 ul li{
+    list-style: none;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 40px;
+  display: inline-block;
+  cursor: pointer;
+  }
+
+  .name-3 p{
+    text-align: center;
+  text-decoration: blink;
+  color: white;
+  cursor: pointer;
+  border:1px solid gray;
+  border-radius: 15px;
+  letter-spacing: 0.5px
+  }
+
+  .team-3 img {
+  cursor: pointer;
+  text-align: center;
+}
+
+.team-3 img:hover{
+  width:110px;
+}
+
+#GAMINGCHAIR{
+
+  background:#5D6D7E;
+}
+
+.team-B {
+  list-style:decimal-leading-zero;
+  padding-top: 100px;
+}
+
+.team-B ul li{
+  list-style: none;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 40px;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+}
+
+.name-B  p{
+  text-align: center;
+  text-decoration: blink;
+  color: white;
+  cursor: pointer;
+  border:1px solid gray;
+  border-radius: 15px;
+    letter-spacing: 0.5px
+}
+
+.team-B img {
+  cursor: pointer;
+  text-align: center;
+}
+
+.team-B img:hover{
+  width:110px;
+}
+
+.team-A {
+  list-style:decimal-leading-zero;
+  padding-top: 5px;
+  padding-left: 215px;
+}
+
+.team-A ul li{
+  list-style: none;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 40px;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+}
+
+.name-C  p{
+  text-align: center;
+  text-decoration: blink;
+  color: white;
+  cursor: pointer;
+  border:1px solid gray;
+  border-radius: 15px;
+    letter-spacing: 0.5px
+}
+
+.team-A img {
+  cursor: pointer;
+  text-align: center;
+}
+
+.team-A img:hover{
+  width:130px;
+}
+
+
+
+#comic{
+   background-color:#666666;
+   width:500%;
+   height: auto;
+}
+
+.team-4{
+  list-style:decimal-leading-zero;
+  padding: 10px;
+  padding-top: 50px;
+  }
+
+  .team-4 ul li{
+    list-style: none;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 40px;
+  display: inline-block;
+  cursor: pointer;
+  }
+
+  .name-5 p{
+    text-align: center;
+  text-decoration: blink;
+  color: white;
+  cursor: pointer;
+  border:1px solid gray;
+  border-radius: 15px;
+  letter-spacing: 0.5px
+  }
+
+  .team-4 img {
+  cursor: pointer;
+  text-align: center;
+  border-radius:2px;
+}
+
+.team-4 img:hover{
+  width:110px;
+}
+
+.team-5{
+  list-style:decimal-leading-zero;
+  padding: 10px;
+  }
+
+  .team-5 ul li{
+    list-style: none;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 40px;
+  display: inline-block;
+  cursor: pointer;
+  }
+
+  .name-6 p{
+    text-align: center;
+  text-decoration: blink;
+  color: white;
+  cursor: pointer;
+  border:1px solid gray;
+  border-radius: 15px;
+  letter-spacing: 0.5px
+  }
+
+  .team-5 img {
+  cursor: pointer;
+  text-align: center;
+  border-radius:2px;
+}
+
+.team-5 img:hover{
+  width:110px;
+}
+
+
+.team-6{
+  list-style:decimal-leading-zero;
+  padding: 10px;
+  }
+
+  .team-6 ul li{
+    list-style: none;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 40px;
+  display: inline-block;
+  cursor: pointer;
+  }
+
+  .name-7 p{
+    text-align: center;
+  text-decoration: blink;
+  color: white;
+  cursor: pointer;
+  border:1px solid gray;
+  border-radius: 15px;
+  letter-spacing: 0.5px
+  }
+
+  .team-6 img {
+  cursor: pointer;
+  text-align: center;
+  border-radius:2px;
+}
+
+.team-6 img:hover{
+  width:110px;
+}
+
+.team-7{
+  list-style:decimal-leading-zero;
+  padding: 10px;
+  }
+
+  .team-7 ul li{
+    list-style: none;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding:5px;
+  display: inline-block;
+  cursor: pointer;
+  padding-left: 150px;
+  }
+
+  .name-8 p{
+    text-align: center;
+  text-decoration: blink;
+  color: white;
+  cursor: pointer;
+  border:1px solid gray;
+  border-radius: 15px;
+  letter-spacing: 0.5px
+  }
+
+  .team-7 img {
+  cursor: pointer;
+  text-align: center;
+  border-radius:2px;
+}
+
+.team-7 img:hover{
+  width:110px;
+}
+
+#Aboutus{
+  width:100%;
+  height:200px;
+  background:black;
+}
+
+footer-1{
+  color:#7F8C8D;
+  display: flex;
+  float: left;
+  padding-left: 100px;
+  padding-top: 65px;
+text-align: center;
+width:100%;
+bottom: 0px;
+}
+
+.call-1 p{
+  font-size:28px;
+  padding-bottom: 10px;
+  color:#7F8C8D;
+
+}
+
+.call-1 p:hover{
+  cursor:pointer;
+  color:orange;
+}
+
+hr{
+  width:138px;
+}
+.call-1 ul li{
+  text-decoration: none;
+  text-transform: unset;
+  list-style: none;
+  display: inline-block;
+}
+
+.call-1 ul li i{
+  padding: 7px;
+  font-size: 25px;
+  padding-top: 10px;
+}
+
+.call-1 ul li i:hover{
+  color:orange;
+  transition: 0.10s;
+}
+
+.about{
+  float:right;
+  color: white;
+  padding-left:200px;
+}
+
+.about h1{
+color: gray;
+}
+
+
+.about h3{
+  width:100%;
+  font-weight: 100%;
+  line-height: 20px;
+  font-size:18px;
+  color: gray;
+}
